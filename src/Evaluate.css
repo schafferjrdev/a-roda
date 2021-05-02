@@ -1,0 +1,8 @@
+.participantes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+}
+.participantes .participante-card {
+  margin: 8px;
+}

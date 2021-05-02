@@ -1,0 +1,42 @@
+.avatar-group {
+  // background-color: red;
+  position: relative;
+
+  .avatar-pic {
+    background-color: #ccc;
+  }
+
+  .ant-upload {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    place-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all ease 0.2s;
+  }
+  .avatar-load {
+    background-color: #444;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    place-items: center;
+    border-radius: 50%;
+    color: white;
+  }
+
+  &:hover {
+    .ant-upload {
+      background-color: #444;
+      opacity: 80%;
+      color: white;
+    }
+  }
+}

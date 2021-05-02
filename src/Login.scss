@@ -1,0 +1,13 @@
+.background {
+  background-color: #444;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.card-login {
+  button {
+    margin-top: 8px;
+  }
+}
